@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bicis - Tienda de Bicicletas</title>
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-bicycle"></i>
+            <h1>Bicis</h1>
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#resenias">Reseñas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="carrito">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="contador">0</span>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h2>Encuentra la bicicleta perfecta para ti</h2>
+                <p>Descubre nuestra selección de bicicletas de alta calidad para todos los terrenos y estilos.</p>
+                <a href="#productos" class="btn-principal">Ver Productos</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/bici1.jpg" alt="Bicicleta de montaña">
+            </div>
+        </section>
+
+        <section id="productos" class="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="productos-container">
+                <div class="producto-card">
+                    <img src="images/bici1.jpg" alt="Bicicleta de montaña">
+                    <h3>Bicicleta de Carrera</h3>
+                    <p class="precio">$1.120.000</p>
+                    <p class="descripcion">Ideal para competencia.</p>
+                    <button class="btn-agregar"><i class="fa-solid fa-plus"></i> Agregar al carrito</button>
+                </div>
+                <div class="producto-card">
+                    <img src="images/bici2.jpg" alt="Bicicleta de ruta">
+                    <h3>Bicicleta de Paseo</h3>
+                    <p class="precio">$550.000</p>
+                    <p class="descripcion">Perfecta para ciudad.</p>
+                    <button class="btn-agregar"><i class="fa-solid fa-plus"></i> Agregar al carrito</button>
+                </div>
+                <div class="producto-card">
+                    <img src="images/bici3.jpg" alt="Bicicleta urbana">
+                    <h3>Bicicleta de Niña</h3>
+                    <p class="precio">$290.000</p>
+                    <p class="descripcion">Diseñada para niñas.</p>
+                    <button class="btn-agregar"><i class="fa-solid fa-plus"></i> Agregar al carrito</button>
+                </div>
+                <div class="producto-card">
+                    <img src="images/bici4.jpg" alt="Bicicleta BMX">
+                    <h3>Bicicleta de Niña Pequeña</h3>
+                    <p class="precio">$185.000</p>
+                    <p class="descripcion">Diseñada para niñas.</p>
+                    <button class="btn-agregar"><i class="fa-solid fa-plus"></i> Agregar al carrito</button>
+                </div>
+                <div class="producto-card">
+                    <img src="images/bici5.jpg" alt="Bicicleta plegable">
+                    <h3>Bicicleta Sport 1</h3>
+                    <p class="precio">$495.000</p>
+                    <p class="descripcion">Práctica para correr.</p>
+                    <button class="btn-agregar"><i class="fa-solid fa-plus"></i> Agregar al carrito</button>
+                </div>
+                <div class="producto-card">
+                    <img src="images/bici6.jpg" alt="Bicicleta eléctrica">
+                    <h3>Bicicleta Sport 2</h3>
+                    <p class="precio">$450.000</p>
+                    <p class="descripcion">Práctica para correr.</p>
+                    <button class="btn-agregar"><i class="fa-solid fa-plus"></i> Agregar al carrito</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="resenias" class="resenias">
+            <h2>Reseñas de Clientes</h2>
+            <div class="resenias-container">
+                <div class="card">
+                    <img src="images/bici7.jpg" alt="Cliente">
+                    <div class="card-content">
+                        <span class="card-nombre">Juan Pérez</span>
+                        <div class="estrellas">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span class="card-fecha">14/03/2025</span>
+                        <p>"Increíble calidad de bicicletas y excelente servicio. Muy conforme con mi compra."</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/bici8.jpg" alt="Cliente">
+                    <div class="card-content">
+                        <span class="card-nombre">María González</span>
+                        <div class="estrellas">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span class="card-fecha">22/04/2025</span>
+                        <p>"Compré una bicicleta urbana y superó mis expectativas. Muy recomendable."</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/bici9.jpg" alt="Cliente">
+                    <div class="card-content">
+                        <span class="card-nombre">Carlos Rodríguez</span>
+                        <div class="estrellas">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half"></i>
+                        </div>
+                        <span class="card-fecha">05/05/2025</span>
+                        <p>"Gran variedad de modelos y precios accesibles. Volveré a comprar aquí."</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/bici10.jpg" alt="Cliente">
+                    <div class="card-content">
+                        <span class="card-nombre">Laura Martínez</span>
+                        <div class="estrellas">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span class="card-fecha">18/04/2025</span>
+                        <p>"La atención al cliente es excelente y la bicicleta llegó en perfectas condiciones."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <div class="contacto-container">
+                <div class="formulario">
+                    <form action="https://formspree.io/f/your-form-id" method="POST">
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-enviar">Enviar mensaje</button>
+                    </form>
+                </div>
+                <div class="mapa">
+                    <h3>Encuéntranos en:</h3>
+                    <p>Av. San Martín 3486, Monte Grande, Buenos Aires</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.8313113500713!2d-58.465972!3d-34.762196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd151234adac1%3A0x34d21d2745f8affc!2sMonte%20Grande%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1716492433594!5m2!1ses!2sar"
+                        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <i class="fa-solid fa-bicycle"></i>
+                <h3>BICIS</h3>
+            </div>
+            <div class="footer-links">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#resenias">Reseñas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contacto</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Av. San Martín 3486, Monte Grande</p>
+                <p><i class="fa-solid fa-phone"></i> (011) 4567-8900</p>
+                <p><i class="fa-solid fa-envelope"></i> info@bicis.com</p>
+            </div>
+            <div class="footer-social">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; Julio C. Duhalde 2025 - Carrito de compras de bicis - Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
